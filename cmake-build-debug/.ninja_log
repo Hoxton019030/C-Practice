@@ -1,0 +1,4 @@
+# ninja log v5
+3	149	6877040221968859	build.ninja	613945e3411d255c
+1	323	6877040225808304	CMakeFiles/C__Practice.dir/main.cpp.obj	cdcd677148ba6794
+325	428	6877040226813454	C__Practice.exe	d519c3bc4aa62094
