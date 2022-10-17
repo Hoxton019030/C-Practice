@@ -1,4 +1,8 @@
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/C__Practice.dir
+C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/addpntrs.dir
+C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/arraynew.dir
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/use_new.dir
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

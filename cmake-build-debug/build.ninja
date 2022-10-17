@@ -74,6 +74,72 @@ build C__Practice.exe: CXX_EXECUTABLE_LINKER__C__Practice_Debug CMakeFiles/C__Pr
   TARGET_PDB = C__Practice.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target addpntrs
+
+
+#############################################
+# Order-only phony target for addpntrs
+
+build cmake_object_order_depends_target_addpntrs: phony || CMakeFiles/addpntrs.dir
+
+build CMakeFiles/addpntrs.dir/addpntrs.cpp.obj: CXX_COMPILER__addpntrs_Debug C$:/Users/za546/CLionProjects/C++Practice/addpntrs.cpp || cmake_object_order_depends_target_addpntrs
+  DEP_FILE = CMakeFiles\addpntrs.dir\addpntrs.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\addpntrs.dir
+  OBJECT_FILE_DIR = CMakeFiles\addpntrs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target addpntrs
+
+
+#############################################
+# Link the executable addpntrs.exe
+
+build addpntrs.exe: CXX_EXECUTABLE_LINKER__addpntrs_Debug CMakeFiles/addpntrs.dir/addpntrs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\addpntrs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = addpntrs.exe
+  TARGET_IMPLIB = libaddpntrs.dll.a
+  TARGET_PDB = addpntrs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arraynew
+
+
+#############################################
+# Order-only phony target for arraynew
+
+build cmake_object_order_depends_target_arraynew: phony || CMakeFiles/arraynew.dir
+
+build CMakeFiles/arraynew.dir/arraynew.cpp.obj: CXX_COMPILER__arraynew_Debug C$:/Users/za546/CLionProjects/C++Practice/arraynew.cpp || cmake_object_order_depends_target_arraynew
+  DEP_FILE = CMakeFiles\arraynew.dir\arraynew.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\arraynew.dir
+  OBJECT_FILE_DIR = CMakeFiles\arraynew.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arraynew
+
+
+#############################################
+# Link the executable arraynew.exe
+
+build arraynew.exe: CXX_EXECUTABLE_LINKER__arraynew_Debug CMakeFiles/arraynew.dir/arraynew.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\arraynew.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = arraynew.exe
+  TARGET_IMPLIB = libarraynew.dll.a
+  TARGET_PDB = arraynew.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target main
 
 
@@ -106,6 +172,72 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_IMPLIB = libmain.dll.a
   TARGET_PDB = main.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/test.cpp.obj: CXX_COMPILER__test_Debug C$:/Users/za546/CLionProjects/C++Practice/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test.exe
+
+build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target use_new
+
+
+#############################################
+# Order-only phony target for use_new
+
+build cmake_object_order_depends_target_use_new: phony || CMakeFiles/use_new.dir
+
+build CMakeFiles/use_new.dir/use_new.cpp.obj: CXX_COMPILER__use_new_Debug C$:/Users/za546/CLionProjects/C++Practice/use_new.cpp || cmake_object_order_depends_target_use_new
+  DEP_FILE = CMakeFiles\use_new.dir\use_new.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\use_new.dir
+  OBJECT_FILE_DIR = CMakeFiles\use_new.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target use_new
+
+
+#############################################
+# Link the executable use_new.exe
+
+build use_new.exe: CXX_EXECUTABLE_LINKER__use_new_Debug CMakeFiles/use_new.dir/use_new.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\use_new.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = use_new.exe
+  TARGET_IMPLIB = libuse_new.dll.a
+  TARGET_PDB = use_new.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,7 +266,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build C__Practice: phony C__Practice.exe
 
+build addpntrs: phony addpntrs.exe
+
+build arraynew: phony arraynew.exe
+
 build main: phony main.exe
+
+build test: phony test.exe
+
+build use_new: phony use_new.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +284,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug
 
-build all: phony C__Practice.exe main.exe
+build all: phony C__Practice.exe addpntrs.exe arraynew.exe main.exe test.exe use_new.exe
 
 # =============================================================================
 # Built-in targets
