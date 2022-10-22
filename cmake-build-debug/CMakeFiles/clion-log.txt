@@ -1,8 +1,13 @@
 "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\za546\CLionProjects\C++Practice -B C:\Users\za546\CLionProjects\C++Practice\cmake-build-debug
     -- src/addpntrs.cpp will be compiled to bin/addpntrs
+    -- src/array.cpp will be compiled to bin/array
     -- src/arraynew.cpp will be compiled to bin/arraynew
+    -- src/delete.cpp will be compiled to bin/delete
     -- src/main.cpp will be compiled to bin/main
+    -- src/pointMath.cpp will be compiled to bin/pointMath
     -- src/test.cpp will be compiled to bin/test
+    -- src/test1.cpp will be compiled to bin/test1
+    -- src/test3.cpp will be compiled to bin/test3
     -- src/use_new.cpp will be compiled to bin/use_new
 -- Configuring done
 -- Generating done

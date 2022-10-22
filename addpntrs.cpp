@@ -8,7 +8,7 @@
 int main() {
     using namespace std;
     double wages[3] = {1000,2000,3000};
-    short stack[3] = {3,2,1};
+    short stack[3] = {3,10,1};
 
     double* pw=wages;
     short* ps = &stack[0];
@@ -25,7 +25,7 @@ int main() {
 
     cout << "access two elements with pointer notation \n";
     cout << "*stacks = " << *stack
-    << ",*(stacks +3) =" << *(stack+5) <<endl;
+    << ",*(stacks +3) =" << *(stack+1) <<endl;
 
 
     cout <<sizeof (wages) << " = size of wages array\n";
