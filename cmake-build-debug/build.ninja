@@ -272,6 +272,72 @@ build pointMath.exe: CXX_EXECUTABLE_LINKER__pointMath_Debug CMakeFiles/pointMath
   TARGET_PDB = pointMath.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target pointpoint
+
+
+#############################################
+# Order-only phony target for pointpoint
+
+build cmake_object_order_depends_target_pointpoint: phony || CMakeFiles/pointpoint.dir
+
+build CMakeFiles/pointpoint.dir/pointpoint.cpp.obj: CXX_COMPILER__pointpoint_Debug C$:/Users/za546/CLionProjects/C++Practice/pointpoint.cpp || cmake_object_order_depends_target_pointpoint
+  DEP_FILE = CMakeFiles\pointpoint.dir\pointpoint.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\pointpoint.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointpoint.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointpoint
+
+
+#############################################
+# Link the executable pointpoint.exe
+
+build pointpoint.exe: CXX_EXECUTABLE_LINKER__pointpoint_Debug CMakeFiles/pointpoint.dir/pointpoint.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointpoint.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointpoint.exe
+  TARGET_IMPLIB = libpointpoint.dll.a
+  TARGET_PDB = pointpoint.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem
+
+
+#############################################
+# Order-only phony target for problem
+
+build cmake_object_order_depends_target_problem: phony || CMakeFiles/problem.dir
+
+build CMakeFiles/problem.dir/problem.cpp.obj: CXX_COMPILER__problem_Debug C$:/Users/za546/CLionProjects/C++Practice/problem.cpp || cmake_object_order_depends_target_problem
+  DEP_FILE = CMakeFiles\problem.dir\problem.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\problem.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem
+
+
+#############################################
+# Link the executable problem.exe
+
+build problem.exe: CXX_EXECUTABLE_LINKER__problem_Debug CMakeFiles/problem.dir/problem.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem.exe
+  TARGET_IMPLIB = libproblem.dll.a
+  TARGET_PDB = problem.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target test
 
 
@@ -443,6 +509,10 @@ build main: phony main.exe
 
 build pointMath: phony pointMath.exe
 
+build pointpoint: phony pointpoint.exe
+
+build problem: phony problem.exe
+
 build test: phony test.exe
 
 build test1: phony test1.exe
@@ -459,7 +529,7 @@ build use_new: phony use_new.exe
 #############################################
 # Folder: C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug
 
-build all: phony C__Practice.exe addpntrs.exe array.exe arraynew.exe delete.exe main.exe pointMath.exe test.exe test1.exe test3.exe use_new.exe
+build all: phony C__Practice.exe addpntrs.exe array.exe arraynew.exe delete.exe main.exe pointMath.exe pointpoint.exe problem.exe test.exe test1.exe test3.exe use_new.exe
 
 # =============================================================================
 # Built-in targets

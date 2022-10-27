@@ -1,23 +1,28 @@
 //
-// Created by za546 on 2022/10/17.
+// Created by za546 on 2022/10/22.
 //
 
-#include "test.h"
-
+#include <vector>
+#include <array>
 #include <iostream>
+
 
 int main() {
     using namespace std;
-//    int* ps = new int;
-//    *ps =10;
-//    int* pd = ps;
-//    cout << pd << *ps <<endl;
-//    cout << ps << *pd <<endl;
-//    cout << *ps;
-    int *psome = new int[10];
-    cout << *psome;
+    double a1[4] = {1.2, 2.4, 3.6, 4.8};
+    vector<double> a2(4);
+    a2[0] = 1.0 / 3.0;
+    a2[1] = 1.0 / 5.0;
+    a2[2] = 1.0 / 7.0;
+    a2[3] = 1.0 / 9.0;
 
-    delete []psome;
-
+    array<double, 4> a3 = {3.14, 2.72, 1.62, 1.41};
+    array<double, 4> a4;
+    a4 = a3; //大小必須相同
+    // using array annotation
+    cout << "a1[2]: " << a1[2] << " at " << &a1[2] << endl;
+    cout << "a2[2]: " << a2[2] << " at " << &a2[2] << endl;
+    cout << "a3[2]: " << a3[2] << " at " << &a3[2] << endl;
+    cout << "a4[2]: " << a4[2] << " at " << &a4[2] << endl;
 
 }

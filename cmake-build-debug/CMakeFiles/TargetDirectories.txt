@@ -5,6 +5,8 @@ C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/arraynew.d
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/delete.dir
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/main.dir
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/pointMath.dir
+C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/pointpoint.dir
+C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/problem.dir
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/test.dir
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/test1.dir
 C:/Users/za546/CLionProjects/C++Practice/cmake-build-debug/CMakeFiles/test3.dir

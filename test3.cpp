@@ -3,27 +3,21 @@
 //
 
 #include <iostream>
+#include <cstring>
 #include "test3.h"
 
-struct inflatable {
-    char name[20];
-    float volume;
-    double price;
-};
-
-
 int main() {
-//    inflatable *ps = new inflatable;
-    using namespace std;
-    inflatable *ps = new inflatable;
-    cout << "Enter name of inflatable item: ";
-    cin.get(ps->name, 20);
-    cout << "Enter volume in cubic feet: ";
-    cin >> (*ps).volume;
-    cout << "Name: " << (*ps).name << endl;
-    cout << "Volume:　" << ps->volume << "cubic feet\n";
-    cout << "Price : $" << ps->price << "\n";
-    delete ps;
-    return 0;
+    int SIZE = 30;
+    char firstName[10];
+    char lastName[10];
+    std::cout << "Enter your first name: " << std::endl;
+    std::cin.getline(firstName, 7);
+    std::cout << "Enter your last name :" << std::endl;
+    std::cin.getline(lastName,7);
+    strcat(lastName,", ");
+    strcat(lastName, firstName);
+    std::cout <<"Here's the information in a single string :" << lastName << std::endl;
+
+
 
 }

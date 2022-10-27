@@ -5,6 +5,8 @@
     -- src/delete.cpp will be compiled to bin/delete
     -- src/main.cpp will be compiled to bin/main
     -- src/pointMath.cpp will be compiled to bin/pointMath
+    -- src/pointpoint.cpp will be compiled to bin/pointpoint
+    -- src/problem.cpp will be compiled to bin/problem
     -- src/test.cpp will be compiled to bin/test
     -- src/test1.cpp will be compiled to bin/test1
     -- src/test3.cpp will be compiled to bin/test3
